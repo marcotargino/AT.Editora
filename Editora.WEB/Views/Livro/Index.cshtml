@@ -4,25 +4,25 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Lista de Livros</h1>
+<h1>Books List</h1>
 
 <p>
-    <a asp-action="Create">Adicionar novo livro</a>
+    <a asp-action="Create">Add new</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Titulo)
+                Title
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ISBN)
+                ISBN
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Ano)
+                Publication
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AutorId)
+                Author ID
             </th>
             <th></th>
         </tr>

@@ -11,31 +11,31 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
+           ID
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Id)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
+            First Name
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Nome)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.UltimoNome)
+            Last Name
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.UltimoNome)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
+            E-mail
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DataNascimento)
+            Birth Date
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DataNascimento)
@@ -43,7 +43,7 @@
     </dl>
 </div>
 <div>
-    <p> Livros do @Model.Nome </p>
+    <p> @Model.Nome's Books </p>
     @if (Model.Livros.Count() != 0)
     {
         foreach (var livros in Model.Livros)
