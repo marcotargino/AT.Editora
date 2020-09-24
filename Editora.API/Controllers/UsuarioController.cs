@@ -6,7 +6,7 @@ using Editora.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Editora.API.Controllers
+namespace Editora.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -20,7 +20,6 @@ namespace Editora.API.Controllers
 
         }
 
-
         [Route("Token")]
         [HttpPost]
         [RequireHttps]
@@ -30,7 +29,7 @@ namespace Editora.API.Controllers
 
             if (String.IsNullOrWhiteSpace(token))
             {
-                return BadRequest("Login ou senha invalida");
+                return BadRequest("Login or Password not available");
             }
 
             return Ok(new

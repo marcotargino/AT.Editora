@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using RestSharp;
 using Editora.Domain;
 
-namespace Editora.WEB.Controllers.Autor
+namespace Editora.Web.Controllers.Autor
 {
     public class AutorController : Controller
     {

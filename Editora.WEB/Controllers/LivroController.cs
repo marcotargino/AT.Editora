@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace Editora.WEB.Controllers
+namespace Editora.Web.Controllers
 {
     public class LivroController : Controller
     {

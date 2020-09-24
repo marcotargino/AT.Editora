@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Editora.WEB.Models;
+using Editora.Web.Models;
 
-namespace Editora.WEB.Controllers
+namespace Editora.Web.Controllers
 {
     public class HomeController : Controller
     {

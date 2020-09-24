@@ -1,6 +1,6 @@
 using System;
 
-namespace Editora.WEB.Models
+namespace Editora.Web.Models
 {
     public class ErrorViewModel
     {

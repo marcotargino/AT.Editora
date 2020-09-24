@@ -9,7 +9,7 @@ using Editora.Domain;
 using Editora.Repository;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Editora.API.Controllers
+namespace Editora.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
